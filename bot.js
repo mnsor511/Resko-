@@ -437,7 +437,7 @@ const adminprefix = '!';
 
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
-  const verifed = ["462503125048360960"];
+  const verifed = ["350547695569600522"];
 if (message.content.startsWith(prefix + 'ownerbot')) {
     if(!message.channel.guild) return;
 if( verifed.some(word => message.author.id.includes(word)) ) {    return message.channel.sendMessage("**انت صاحب البوت **")
